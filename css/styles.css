@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+/* HOME */
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    text-transform: uppercase;
+    background: #293F50;
+}
+.nav-header{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+.header{
+    margin: 0 15px;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+a:hover{
+    color: #888;
+}
+
+.hero{
+    text-align: center;
+    padding: 80px;
+    background: #293F50;
+    color: #888;
+}
+.text-hero{
+    color: #FFF;
+    font-size: 25px;
+    margin: 0 50px 50px 50px;
+}
+h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.button-hero{
+    padding: 20px 40px;
+    text-transform: uppercase;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+}
+.button-hero:hover{
+    background-color: #FFF;
+    color: #293F50;
+    transition: 1s;
+}
+@media(max-width: 700px){
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header{
+        justify-content: center;
+    }
+}
+
+.descriptions{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    color: #888;
+}
+img{
+    width: 280px;
+    border-radius: 5px;
+}
+.speakers{
+    margin-right: 30px;
+}
+.schedule{
+    margin-right: 30px;
+}
+p{
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+h4{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+h3{
+    margin: 20px 0;
+}
+@media(max-width: 900px){
+    .descriptions{
+        flex-direction: column;
+        text-align: center;
+    }
+    img{
+        width: 320px;
+    }
+    .venue{
+        margin-right: 30px;
+    }
+}
+
+footer{
+    background: #293F50;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+small{
+    font-size: 14px;
+    font-weight: bold;
+    color: #888;
+}
+.nav-footer{
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+}
+.footer{
+    margin: 0 10px;
+}
+@media(max-width: 700px){
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-footer{
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+/* REGISTER */
+.register-header{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    text-transform: uppercase;
+    background: #293F50;
+}
+.nav-header{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+.header{
+    margin: 0 15px;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+a:hover{
+    color: #888;
+}
+
+.row-alt{
+    background: linear-gradient(to right, #A1D3B0, #F6F1D3);
+    padding: 40px 140px 30px 140px;
+    text-align: center;
+}
+.row-alt h1{
+    color: #648880;
+    margin-bottom: 30px;
+}
+.row-alt p{
+    color: #888;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.grid{
+    padding: 50px 130px;
+    display: flex;
+}
+.grid div{
+    flex-direction: column;
+    padding-right: 50px;
+    color: #888;
+}
+.grid div h2{
+    font-size: 20px;
+}
+.grid div h4{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.grid div h5{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.form-register{
+    display: flex;
+}
+label{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+input{
+    width: 230px;
+    height: 20px;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+select{
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+}
+option{
+    font-size: 15px;
+}
+textarea{
+    width: 230px;
+    height: 70px;
+    border-radius: 5px;
+}
+.purchase{
+    padding: 11px 30px;
+    border: 1px solid #648880;
+    border-radius: 5px;
+    background: #648880;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFF;
+    cursor: pointer;
+}
+.purchase:hover{
+    border: 1px solid #93CBBF;
+    background: #93CBBF;
+}
+
+.register-footer{
+    background: #293F50;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+small{
+    font-size: 14px;
+    font-weight: bold;
+    color: #888;
+}
+.nav-reg-footer{
+    list-style: none;
+    display: flex;
+    font-size: 14px;
+}
+.nav-reg-footer li{
+    margin: 0 10px;
+}
+@media(max-width: 700px){
+    .register-footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-reg-footer li{
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
